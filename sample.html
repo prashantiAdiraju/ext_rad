@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://technext.github.io/timer-html/index.html -->
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Basic Page Needs
+    ================================================== -->
+
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <title>Radiolory</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template CSS Files
+    ================================================== -->
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href="./Timer Agency Template_files/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="./Timer Agency Template_files/animate.css">
+
+    <!-- template main css file -->
+    <link rel="stylesheet" href="./Timer Agency Template_files/main.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./Timer Agency Template_files/responsive.css">
+
+    <!-- Template Javascript Files
+    ================================================== -->
+    <!-- modernizr js -->
+    <script src="./Timer Agency Template_files/modernizr-2.7.2.js"></script>
+    <!-- jquery -->
+    <script src="./Timer Agency Template_files/jquery.min.js.download"></script>
+    <!-- bootstrap js -->
+    <script src="./Timer Agency Template_files/bootstrap.min.js.download"></script>
+
+    <!-- template main js -->
+    <script src="./Timer Agency Template_files/main.js"></script>
+    <style type="text/css">
+    // Layout
+        body { 
+            text-align: center; 
+            background: #48cfad; 
+            color: #fff; 
+        }
+        a {
+            color: #fff; 
+            text-transform: uppercase; 
+            border-bottom: 1px dotted #fff; 
+            -webkit-transition: all 100ms ease-out; 
+            transition: all 100ms ease-out; 
+            text-decoration: none; 
+        }
+        .block { 
+            width: 31.33%; 
+            margin: 1%; 
+            float: left; 
+        }
+        a:hover { border-bottom: 1px solid; }
+        h3 { margin-top: 850px; }
+        .marged { margin-top: 100px; }
+
+        // Reveal on scroll
+        .revealOnScroll { opacity: 0; }
+
+        .image 
+        {
+            width: 100%; 
+            height: 200px; 
+            position: relative; 
+            display: block; 
+            background-color: #48cfad; 
+            opacity: 0.8; 
+            -webkit-transition: all 400ms ease; 
+            transition: all 400ms ease;
+            background-image: url('http://lorempixel.com/400/200/');
+            -webkit-background-size: cover; 
+            background-size: cover;
+    }
+
+
+    </style>
+</head>
+    
+<body>
+    <div id="home"></div>
+<div class="pre-loader" style="display: none;">
+    <div class="load-con">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+
+<header>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="fa fa-bars fa-lg"></span>
+                </button>
+                <a class="navbar-brand" href="http://networkextreme.com/#">
+                    <img src="img/logo-white.png" width="350" alt="" class="logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://networkextreme.com/#home">home</a>
+                    </li>
+                    <li><a href="http://networkextreme.com/#technology">technology</a>
+                    </li>
+                    <li><a href="http://networkextreme.com/#datacenter">data centers</a>
+                    </li>
+                    <li><a href="http://networkextreme.com/#solutions">solutions</a>
+                    </li>
+                    <li><a href="http://networkextreme.com/#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="tp-banner-container">
+        <div class="tp-banner revslider-initialised tp-simpleresponsive hovered" id="revslider-638" style="height: 100%; max-height: none;">
+            <ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" "="" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 20; opacity: 1;">
+                <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="left top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="img/transparent.png" data-src="img/transparent.png" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;img/transparent.png&quot;); background-size: cover; background-position: left top; width: 100%; height: 100%; opacity: 1; position: relative;"></div></div>
+                <div class="tp-caption lfl fadeout hidden-xs start" data-x="left" data-y="center" data-hoffset="30" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut" style="left: 119.5px; top: 31px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                    <img src="./Timer Agency Template_files/PACS.png" alt="" style="width: 499px; height: 600px;">
+                </div>
+
+                <div class="tp-caption lfl fadeout visible-xs text-center start" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut" style="left: 674.5px; top: 331px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                    <img src="./Timer Agency Template_files/PACS.png" style="max-width: 350px; width: 0px; height: 0px;" alt=""><br>
+                    <p class="text-center" style="color: white;font-size: 2em;"><b>True</b> <br>Cloud Technology</p>
+                </div>
+
+                <div class="tp-caption large_white_light sft hidden-xs start" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 92px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 65px; left: 639.5px; top: 205px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                    <b>True</b> Cloud
+                </div>
+                <div class="tp-caption large_white_light sfb hidden-xs start" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 92px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 65px; left: 639.5px; top: 285px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                    Technology
+                </div>
+
+                <div class="tp-caption sfb hidden-xs start" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px; left: 639.5px; top: 392.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                    <a href="http://networkextreme.com/#technology" class="btn btn-primary inverse btn-lg">LEARN MORE</a>
+                </div>
+
+                </li>
+
+            </ul>
+        <div class="tp-loader spinner0" style="visibility: hidden; opacity: 0;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-bannertimer" style="visibility: hidden; width: 0%;"></div></div>
+    </div>
+
+
+</header> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="revealOnScroll" data-animation="fadeInUp">Trigger a CSS animation on scroll</h1>
+<h2><a href="http://webbb.be/blog/trigger-css-animation-scroll/" title="Trigger CSS animations on scroll">Read the tutorial about 'reveal animations on scroll'</a></h2>
+<span>...scroll down...</span>
+<h3 class="revealOnScroll" data-animation="lightSpeedIn">Other animation</h3>
+<div class="marged">
+  <div class="block revealOnScroll" data-animation="flipInX" data-timeout="400">
+    <div class="image"></div>
+    <h4>Block 1</h4>
+  </div>
+  <div class="block revealOnScroll" data-animation="flipInX">
+    <div class="image"></div>
+    <h4>Block 2</h4>
+  </div>
+  <div class="block revealOnScroll" data-animation="flipInX" data-timeout="800">
+    <div class="image"></div>
+    <h4>Block 3</h4>
+  </div>
+</div>
+<a href="http://webbb.be/blog/trigger-css-animation-scroll/" title="Trigger CSS animations on scroll">Read the tutorial</a>
+<br/>
+<br/>
+<br/>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
+<script>
+$(function() {
+
+  var $window           = $(window),
+      win_height_padded = $window.height() * 1.1,
+      isTouch           = Modernizr.touch;
+
+  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
+
+  $window.on('scroll', revealOnScroll);
+
+  function revealOnScroll() {
+    var scrolled = $window.scrollTop(),
+        win_height_padded = $window.height() * 1.1;
+
+    // Showed...
+    $(".revealOnScroll:not(.animated)").each(function () {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+
+      if (scrolled + win_height_padded > offsetTop) {
+        if ($this.data('timeout')) {
+          window.setTimeout(function(){
+            $this.addClass('animated ' + $this.data('animation'));
+          }, parseInt($this.data('timeout'),10));
+        } else {
+          $this.addClass('animated ' + $this.data('animation'));
+        }
+      }
+    });
+    // Hidden...
+   $(".revealOnScroll.animated").each(function (index) {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+      if (scrolled + win_height_padded < offsetTop) {
+        $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
+      }
+    });
+  }
+
+  revealOnScroll();
+});
+</script>
+    </body></html>
